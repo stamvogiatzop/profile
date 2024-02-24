@@ -79,7 +79,7 @@ a:hover {
   display: inline-block;
   padding: 0px 10px;
   border: 2px dotted rgb(114, 5, 29);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 
 .list-inline > li:hover {
