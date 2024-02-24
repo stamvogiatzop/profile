@@ -47,6 +47,7 @@ a:hover {
 
 #disco:hover {
   color: #3B3486;
+  font-size: larger;
 }
 
 #caption-text {
@@ -55,6 +56,8 @@ a:hover {
 
 #oval_pic {
   border-radius: 50%;
+  height: 270px;
+  width: 200px;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
 }
 .text-center {
@@ -65,9 +68,8 @@ a:hover {
 
 .white-card {
   background: rgb(255, 255, 255);
-  border: 1px solid black;
   border-radius: 10px;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.08);
   padding: 20px;
   padding-top: 10px;
   margin: 20px;
@@ -78,6 +80,10 @@ a:hover {
   padding: 0px 10px;
   border: 2px dotted rgb(114, 5, 29);
   border-radius: 10px;
+}
+
+.list-inline > li:hover {
+  font-size: larger;
 }
 
 .list-inline {
